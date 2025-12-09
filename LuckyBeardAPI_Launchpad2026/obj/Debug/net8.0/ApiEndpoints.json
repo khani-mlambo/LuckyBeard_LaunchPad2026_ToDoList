@@ -1,0 +1,165 @@
+[
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.AuthController",
+    "Method": "Delete",
+    "RelativePath": "api/Auth/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userlogin",
+        "Type": "LuckyBeardAPI_Launchpad2026.DTOs.AuthDto\u002BLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LuckyBeardAPI_Launchpad2026.DTOs.AuthDto\u002BTokenResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regdto",
+        "Type": "LuckyBeardAPI_Launchpad2026.DTOs.AuthDto\u002BRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.TodosController",
+    "Method": "Delete",
+    "RelativePath": "api/Todos/DeleteToDo:{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.TodosController",
+    "Method": "Update",
+    "RelativePath": "api/Todos/Update:{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "LuckyBeardAPI_Launchpad2026.DTOs.UpdateTodoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.TodosController",
+    "Method": "Upload",
+    "RelativePath": "api/Todos/UploadFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.TodosController",
+    "Method": "Post",
+    "RelativePath": "api/Todos/UploadToDo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "LuckyBeardAPI_Launchpad2026.DTOs.CreateTodoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.TodosController",
+    "Method": "GetById",
+    "RelativePath": "api/Todos/View:{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LuckyBeardAPI_Launchpad2026.Controllers.TodosController",
+    "Method": "List",
+    "RelativePath": "api/Todos/ViewAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LuckyBeardAPI_Launchpad2026.DTOs.PagedResult\u00601[[LuckyBeardAPI_Launchpad2026.DTOs.TodoDto, LuckyBeardAPI_Launchpad2026, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

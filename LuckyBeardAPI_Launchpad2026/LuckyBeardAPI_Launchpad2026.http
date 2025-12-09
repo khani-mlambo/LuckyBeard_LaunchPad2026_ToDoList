@@ -1,0 +1,6 @@
+@LuckyBeardAPI_Launchpad2026_HostAddress = http://localhost:5163
+
+GET {{LuckyBeardAPI_Launchpad2026_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
