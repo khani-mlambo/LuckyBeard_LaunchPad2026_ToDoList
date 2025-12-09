@@ -40,7 +40,7 @@ Ensure the following are installed:
 ### Step 2: Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/LuckyBeardAPI_Launchpad2026.git
+git clone https://github.com/khani-mlambo/LuckyBeard_LaunchPad2026_ToDoList.git
 cd LuckyBeardAPI_Launchpad2026
 ```
 
@@ -132,7 +132,8 @@ The SQL schema and data dump required to restore the project database can be fou
 Your public GitHub repository should be included here:
 
 ```
-https://github.com/<your-username>/LuckyBeardAPI_Launchpad2026
+https://github.com/khani-mlambo/LuckyBeard_LaunchPad2026_ToDoList.git
 ```
+
 
 
