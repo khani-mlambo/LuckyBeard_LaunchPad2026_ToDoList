@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LuckyBeardAPI_Launchpad2026")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00d7939e7ea9207b4f0e4e32a4d5ae2657f7dd00")]
 [assembly: System.Reflection.AssemblyProductAttribute("LuckyBeardAPI_Launchpad2026")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LuckyBeardAPI_Launchpad2026")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
